@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --footer-height: 40px;
+}
+
+html{
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+
+main{
+    padding-bottom: 10px;
+    margin-bottom: var(--footer-height);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: var(--footer-height);
+    background-color: white;
+}
